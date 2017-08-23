@@ -1,0 +1,101 @@
+
+canvas {
+    border-style: dotted dashed solid double;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+
+
+#ashu {
+    float: left;
+}
+
+#as {
+ align-content: center; 
+    float: right;
+}
+
+.as {
+    float:right;
+    text-align: center;
+    border:solid ;
+    width: 50%;
+    height: 500px;
+   
+     
+}
+
+.a {
+    float: left;
+}
+
+#divright {
+    
+}
+
+#g 
+}
+
+body {
+    background-color: aqua;
+}
+
+.ashu {
+    width: 50%
+}
+
+#parent_div {
+    width:0px;
+    height: 300px;
+    margin-right: 10px;
+    float: left;
+}
+
+#parent_div2 {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    float: right;
+    position: relative;
+    
+}
+
+#wire {
+    height: 5px;
+    width: 120px;
+    background: black;
+    margin-top: 30;
+    margin-left: 12px;
+    
+}
+
+#box {
+    width:150px;
+    height: 90px;
+    border: 1px solid black;
+    margin-top: 90;
+    background: white;
+}
+
+#redw {
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    background:red;
+    margin-left: 21;
+    
+}
+
+#black {
+  width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background:black;
+    margin-top: 20;
+    margin-left: 20;
+      
+}
+
+#myCanvas {
+    
+}
