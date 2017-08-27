@@ -1,7 +1,7 @@
 
 //----------------------------------------- Class
 
-function Vector (paraX , paraY){
+function Vector (paraX , paraY){//globally declaring x,y
     this.x = paraX ;
     this.y = paraY ;
 }
@@ -14,15 +14,15 @@ function Rectangle( paraX , paraY , paraWidth, paraHeight ){
 }
 
 function Button( paraX , paraY , paraWidth, paraHeight ) {
-    this.rect = new Rectangle(paraX , paraY , paraWidth, paraHeight) ;
-    
-    this.high = "#FF0000" ;    // pure red color
-    this.low = "#FF9980" ;  // faint red
+    this.rect = new Rectangle(paraX , paraY , paraWidth, paraHeight) ;//creating an instance of class Rectangle
+    //modifying rectangle into a button
+    this.high = "#FF0000" ;    // pure red color for ON STATE
+    this.low = "#FF9980" ;  // faint red for OFF state
     
     this.on = false ;
 }
 
-Button.prototype.Draw = function(ctx) { 
+Button.prototype.Draw = function(ctx) {                      //adding Draw method to Button 
     if(this.on)
         ctx.fillStyle = this.high ;
     else    
@@ -31,15 +31,15 @@ Button.prototype.Draw = function(ctx) {
     ctx.fillRect( this.rect.x ,this.rect.y ,this.rect.w ,this.rect.h );
 }
 
-function Circuit(paraX , paraY , paraWidth, paraHeight) {
-    this.rect = new Rectangle(paraX , paraY , paraWidth, paraHeight) ;
+function Circuit(paraX , paraY , paraWidth, paraHeight) {              // for IC circuit
+    this.rect = new Rectangle(paraX , paraY , paraWidth, paraHeight) ; // using the same props of class Rectangle
     
-    this.gate = "" ;
-    this.data = "" ;
+    this.gate = "" ;  // stores the name of gate chosen
+    this.data = "" ; //to save the data when the mouse drags and drops in anyone of the cicuit
     
 }
 
-Circuit.prototype.Draw = function(ctx) {
+Circuit.prototype.Draw = function(ctx) { //adding Draw method to Circuit
     ctx.fillStyle = "#e6e6ff" ;
     ctx.fillRect( this.rect.x ,this.rect.y ,this.rect.w ,this.rect.h );
     
