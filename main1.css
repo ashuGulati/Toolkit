@@ -1,0 +1,112 @@
+
+.flex_container {
+    display: -webkit-flex;
+    display: flex;
+    width:1366px;
+    height:768px;
+    background-color: lightgrey;
+    
+}
+
+.flex_item {
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 700px;
+    margin: 10px;
+    background-color: cadetblue;
+    overflow-y: auto;
+}
+
+.flex_item1 {
+    width: 700px;
+    height: 750px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.flex_item2 {
+    width: 300px;
+    height: 600px;
+    background-color:darksalmon;
+    margin: 10px;
+}
+
+.button_container > a {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+.button_container > a {
+    width: 600px;
+    height: 600px;
+   
+  
+    
+        
+}
+
+.redB {
+   background-color: red;
+    
+}
+
+.bluB {
+    background-color: blue
+}
+
+.blaB {
+    background-color: black
+}
+
+.yelB {
+    background-color: yellow
+}
+
+.vioB {
+    background-color: violet
+}
+
+.oraB {
+    background-color: orange;
+}
+
+.greB {
+    background-color: green;
+    
+    
+
+}
+
+.button_container {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 15px;
+}
+
+.separator {
+    height: 10px;
+    width: 50%;
+    border: solid 10px;
+    background-color: black;
+    
+}
+
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 25%;
+}
+
+.heading {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+.data {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
