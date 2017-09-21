@@ -17,7 +17,7 @@ function Button( paraX , paraY , paraWidth, paraHeight ) {
     this.rect = new Rectangle(paraX , paraY , paraWidth, paraHeight) ;//creating an instance of class Rectangle
     //modifying rectangle into a button
     this.high = "#FF0000" ;    // pure red color for ON STATE
-    this.low = "#FF9980" ;  // faint red for OFF state
+    this.low = "black" ;  // faint red for OFF state
     
     this.on = false ;
 }
